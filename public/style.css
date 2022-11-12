@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700&display=swap');
+
+:root, body{
+  word-wrap:break-word;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 191, 255, 0.5)
+  ), url("./img/bg-2.webp");
+  /* https://stackoverflow.com/questions/16841323/making-gradient-background-fill-page-with-css */
+  /* This was mad hepful and background mdn */
+    background-size: 110%;
+    height: 100%;
+  
+ 
+}
+
+.index-header {
+  font-family: 'Sono', 'Arial';
+  text-align: center;
+
+  font-weight: 200;
+ 
+}
+
+.container {
+  padding-top: 12%;
+}
+
+/* h1, h2, h3, span {
+  color: white
+} */
+
+.well {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0, 0.5);
+  border: 1px solid rgb(129, 129, 255);
+}
+
+
+
+.timer {
+  width: 55%;
+  font-size: 2.5rem;
+  margin: auto;
+}
+h1 {
+  font-family: 'Sono', 'Arial';
+  color: white;
+  font-weight: 200;
+}
+  h2, h3, h4 {
+  font-family: 'Sono', 'Arial';
+  color: white;
+  font-weight: 400;
+}
+
+.doro {
+  background: rgb(0, 191, 255);
+  color:white;
+  border: 1px solid rgb(129, 129, 255);
+  border-radius: 5px;
+}
+.doro span {
+  width: 100%;
+}
+
+#transparent {
+  background: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.doro-green  {
+  background: rgb(0, 187, 6);
+  border: 1px solid rgb(0, 255, 30);
+  color:white;
+  border-radius: 5px;
+}
