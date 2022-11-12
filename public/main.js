@@ -102,7 +102,7 @@ Array.from(trash).forEach(function(element) {
         })
       });
 });
-
+//https://www.educative.io/answers/how-to-create-a-countdown-timer-using-javascript
 //listen
 var startBtn = document.querySelector(".fa-play-circle")
 var pauseBtn = document.querySelector(".fa-pause")
